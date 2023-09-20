@@ -28,11 +28,11 @@ git clone https://github.com/Marcel-Jan/docker-hadoop-spark.git
 docker-compose up -d
 ```
 
-![image-20230918222437479](D:\java\BIG_DATA\Big_Data\assets\README\image-20230918222437479.png)
+![image-20230918222437479](/assets/README/image-20230918222437479.png)
 
 docker中
 
-![image-20230918222505229](D:\java\BIG_DATA\Big_Data\assets\README\image-20230918222505229.png)
+![image-20230918222505229](/assets/README/image-20230918222505229.png)
 
 ## Quick Start HDFS
 
@@ -72,13 +72,13 @@ hdfs dfs -mkdir -p /data/openbeer/breweries
  hdfs dfs -ls  /data/openbeer/breweries/
 ```
 
-![image-20230918223315989](D:\java\BIG_DATA\Big_Data\assets\README\image-20230918223315989.png)
+![image-20230918223315989](/assets/README/image-20230918223315989.png)
 
 ## 测试
 
 使用hadoop自带测试jar
 
-![image-20230918223635086](D:\java\BIG_DATA\Big_Data\assets\README\image-20230918223635086.png)
+![image-20230918223635086](/assets/README/image-20230918223635086.png)
 
 
 
@@ -90,7 +90,7 @@ wordcount 测试
 hadoop jar /opt/hadoop-3.2.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar wordcount /data/openbeer/breweries/example.txt /data/openbeer/breweries/out
 ```
 
-![image-20230918223843228](D:\java\BIG_DATA\Big_Data\assets\README\image-20230918223843228.png)
+![image-20230918223843228](/assets/README/image-20230918223843228.png)
 
 查看结果
 
@@ -102,4 +102,4 @@ hdfs dfs -cat /data/openbeer/breweries/out/part-r-00000
 
 结果如下
 
-![image-20230918224114962](D:\java\BIG_DATA\Big_Data\assets\README\image-20230918224114962.png)
+![image-20230918224114962](/assets/README/image-20230918224114962.png)
